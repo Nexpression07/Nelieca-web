@@ -372,6 +372,30 @@ nav {
   margin-top: 36px;
 }
 
+.tagline {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #E61377; /* default color for all */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.tagline .dot {
+  font-weight: bold;
+}
+
+.black-text {
+  color: #000; /* overrides pink for Research */
+}
+
+
+
+
+
 /* HERO SECTION */
 .hero-section {
   text-align: center;
@@ -395,7 +419,7 @@ nav {
   font-size: 18px;
   color: #331143;
   margin-bottom: 2rem;
-  max-width: 800px;
+  max-width: 701px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -513,6 +537,7 @@ nav {
 .event-description {
   font-size: 1.1rem;
   margin-bottom: 16px;
+  width: 720px;
 }
 
 .event-subtext {
