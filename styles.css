@@ -17,6 +17,12 @@ body {
   scrollbar-width: thin;
   scrollbar-color: rgba(170, 170, 170, 0.5) transparent;
 }
+.logo-img {
+  height: 50px; /* Adjust as needed */
+  width: auto;
+  margin-top: 27;
+}
+
 
 body::-webkit-scrollbar {
   width: 6px;
